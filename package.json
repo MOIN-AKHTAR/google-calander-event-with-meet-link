@@ -1,0 +1,25 @@
+{
+  "name": "google-calander-event-with-meet-link",
+  "version": "1.0.0",
+  "description": "In this repo we will learn how we can create google calander event and also generate google meet link",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "18.17.0"
+  },
+  "keywords": [],
+  "author": "MOIN-AKHTAR",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/MOIN-AKHTAR/google-calander-event-with-meet-link"
+  },
+  "dependencies": {
+    "@googleapis/calendar": "^9.0.0",
+    "google-auth-library": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
